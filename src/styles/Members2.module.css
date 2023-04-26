@@ -1,0 +1,136 @@
+.content {
+  max-width: 1500px;
+  margin: 2rem auto;
+  text-align: center;
+  color: #666666;
+}
+button {
+  min-width: 170px;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+/* .img{
+   background: url("../assets/director.jpg");
+   height: 150px;
+   width: 200px;
+   background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+.img {
+  height: 150px;
+  width: 200px;
+  transition: transform 400ms ease-out;
+}
+
+.img:hover {
+  transform: scale(1.15);
+}
+
+.patron {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5rem 0;
+  flex-wrap: wrap;
+}
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 3rem 0;
+}
+.names {
+  margin: 3rem 1rem;
+}
+.name2 {
+  font-size: 1rem;
+  line-height: 2;
+  text-align: justify;
+}
+.shadowbutton {
+  background: #1bbbac;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px #777777;
+}
+.name {
+  font-size: 0.8rem;
+}
+.container {
+  animation: zoomIn 0.5s ease-in;
+  overflow: hidden;
+}
+.names2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+  text-align: left;
+}
+.names2 div {
+  margin: 0 4rem;
+}
+.names2 .margin {
+  margin-left: 8rem;
+}
+.flexfull {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+@media (max-width: 1200px) {
+  .names2 div {
+    margin: 0 2rem;
+  }
+  .names2 .margin {
+    margin-left: 4.5rem;
+  }
+}
+@media (max-width: 900px) {
+  .names2 div {
+    margin: 0 1rem;
+  }
+  .names2 .margin {
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 700px) {
+  .flexfull {
+    flex-direction: column;
+  }
+  .names2 {
+    justify-content: center;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .patron {
+    flex-direction: column;
+  }
+  button {
+    font-size: 0.9rem;
+  }
+  .name {
+    font-size: 0.6rem;
+  }
+  .name2 {
+    font-size: 0.8rem;
+  }
+  .patron {
+    margin: 2rem 0;
+  }
+}
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.75);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}

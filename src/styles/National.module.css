@@ -1,0 +1,14 @@
+.flex{
+    display: flex;
+    margin: 2rem auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1500px;
+}
+.names{
+   color:#666666;
+   margin-left: 2rem;
+}
+.names li{ 
+    margin: 1rem 0;
+}

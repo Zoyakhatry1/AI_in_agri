@@ -1,0 +1,138 @@
+.main {
+  /* background-color: #fbfbfb; */
+  /* background-color: #d3d3d3; */
+  background-color: white;
+  height: 100%;
+  margin: 0;
+}
+.about {
+  max-width: 1500px;
+  /* overflow-x: hidden; */
+  margin: 2rem auto;
+  padding: 2rem 2rem;
+}
+.heading {
+  text-align: center;
+  font-size: 1.8rem;
+  /* color: #d72645; */
+  color: #1bbbac;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-family: "Bitter", serif;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  color: #666666;
+}
+.image {
+  height: 320px;
+  width: 500px;
+  border-radius: 0.8rem;
+  margin-right: 2rem;
+}
+.logo{
+  height: 320px;
+  width: 400px;
+  margin-right: 2rem;
+  border-radius: 0.8rem;
+  background-color:#1bbbac;
+}
+
+.text {
+  line-height: 1.8em;
+  margin: 0 2.8rem;
+  margin-bottom: 0.8rem;
+}
+.span {
+  font-weight: bold;
+}
+
+@media (min-width: 1700px) {
+  /* .heading {
+    font-size: 2.5rem;
+  }
+  .text {
+    font-size: 1.2rem;
+  } */
+  /* .image {
+    height: 450px;
+    width: 700px;
+  } */
+}
+
+@media (max-width: 1300px) {
+  .heading {
+    font-size: 1.8rem;
+  }
+  .text {
+    font-size: 1rem;
+  }
+  .image,.logo {
+    height: 450px;
+    width: 600px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .heading {
+    font-size: 1.6rem;
+  }
+  .text {
+    font-size: 0.8rem;
+  }
+  .image,.logo {
+    width: 700px;
+    height: 300px;
+    margin: 0;
+  }
+}
+@media (max-width: 768px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+  .text {
+    font-size: 0.6rem;
+    margin: 1rem;
+  }
+  .image {
+    width: 600px;
+    margin: 0;
+    height: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main {
+    padding: 0;
+  }
+  .about {
+    margin: 0;
+  }
+  .heading {
+    font-size: 1rem;
+  }
+  .text {
+    font-size: 0.6rem;
+    padding: 0;
+    margin: 0.4rem;
+  }
+  .image {
+    height: 200px;
+    width: 400px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .image {
+    width: 310px;
+    margin-bottom: 2rem;
+  }
+}

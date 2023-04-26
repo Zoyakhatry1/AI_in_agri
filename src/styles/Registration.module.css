@@ -1,0 +1,223 @@
+.registration {
+  background-color: white;
+}
+.content {
+  margin: 0 auto;
+  margin-bottom: 0;
+  padding: 2rem 2rem;
+  padding-top: 5rem;
+  max-width: 1500px;
+}
+.heading {
+  text-align: center;
+  color: #1bbbac;
+  font-size: 1.2rem;
+}
+.text {
+  text-align: center;
+  margin: 2rem 1rem;
+  font-size: 1rem;
+  color: #666666;
+}
+.flex {
+  display: flex;
+  margin: 2rem;
+  justify-content: space-around;
+}
+.box1,
+.box2 {
+  text-align: center;
+}
+.heading2 {
+  color: #1bbbac;
+  margin: 2rem 0;
+  font-size: 1.6rem;
+}
+
+.text2 {
+  color: #666666;
+  margin: 1rem;
+  font-size: 1rem;
+}
+.span {
+  font-weight: bold;
+}
+.text3 {
+  color: #666666;
+  margin: 1.2rem 2rem;
+  line-height: 2;
+}
+.center {
+  text-align: center;
+}
+.text4 {
+  color: #666666;
+  margin: 1.2rem 2rem;
+  line-height: 2;
+  font-weight: bold;
+}
+.span2{
+  color: #1bbbac;
+}
+
+.fee {
+  margin-top: 2rem;
+  text-align: center;
+}
+.headingfee {
+  font-size: 2rem;
+  color: #1bbbac;
+  display: inline-block;
+  margin-right:0.8rem;
+}
+.tablecontainer {
+  margin: 2rem auto;
+}
+.table {
+  margin: 0 auto;
+}
+
+table,
+th,
+td {
+  border: 1.5px solid #1bbbac;
+  border-collapse: collapse;
+  padding: 0.8rem;
+  color: #666666;
+}
+.links {
+  text-align: center;
+  margin-top: 4rem;
+}
+.linkscontent {
+  margin: 2rem;
+
+  line-height: 2.5;
+}
+.spanlink {
+  font-weight: bold;
+  color: #666666;
+  font-size: 1.1rem;
+}
+a {
+  color: var(--main-color);
+}
+.note {
+  text-align: center;
+  color: #666666;
+  margin: 2rem;
+  line-height: 2;
+  margin-top: 4rem;
+}
+.noteheading {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.notepara {
+  font-size: 1rem;
+}
+.end {
+  text-align: center;
+  margin-top: 3rem;
+  color: #666666;
+  font-weight: bold;
+  font-size: 1rem;
+}
+@media (min-width: 1600px) {
+  /* .heading {
+    font-size: 2rem;
+  }
+  .text {
+    font-size: 1.2rem;
+  }
+  .heading2 {
+    font-size: 2.5rem;
+  }
+  .text2 {
+    font-size: 1.2rem;
+  }
+  .text3 {
+    font-size: 1.2rem;
+  }
+  .text4 {
+    font-size: 1.2rem;
+  }
+  .headingfee {
+    font-size: 2.5rem;
+  }
+  table,
+  th,
+  td {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+  }
+  .linkscontent {
+    margin: 2rem;
+    font-size: 1.2rem;
+  }
+  .spanlink {
+    font-size: 2rem;
+  }
+  .links {
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+  }
+  .noteheading {
+    font-size: 2rem;
+  }
+  .notepara {
+    font-size: 1.2rem;
+  }
+  .end {
+    font-size: 2rem;
+  } */
+}
+
+@media (max-width: 500px) {
+  .heading {
+    font-size: 1rem;
+  }
+  .text {
+    font-size: 1rem;
+  }
+  .heading2 {
+    font-size: 1.2rem;
+  }
+  .text2 {
+    font-size: 1rem;
+  }
+  .text3 {
+    margin: 1rem 0;
+  }
+  .text4 {
+    margin: 1rem 0;
+  }
+  .flex {
+    flex-direction: column;
+    margin: 0;
+  }
+  table,
+  th,
+  td {
+    padding: 0.4rem;
+  }
+  .linkscontent {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  .spanlink {
+    font-size: 1rem;
+  }
+  .note {
+    margin: 2rem 0;
+  }
+  .noteheading {
+    font-size: 1.1rem;
+  }
+  .notepara {
+    font-size: 1rem;
+  }
+  .end {
+    font-size: 1rem;
+  }
+}

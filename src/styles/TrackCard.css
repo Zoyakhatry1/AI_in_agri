@@ -1,0 +1,46 @@
+.track-card {
+  overflow: hidden;
+  position: relative;
+  padding: 40px;
+  padding-left: 50px;
+  min-width: 300px;
+  margin: 50px auto;
+  width: 30vw;
+  font-size: 15px;
+  border-top: 2px solid var(--main-color);
+  border-left: 2px solid var(--main-color);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  transition: all 0.5s;
+}
+.track-card::before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  left: -15%;
+  transform: rotate(45deg);
+  width: 100px;
+  height: 250px;
+  background: var(--main-color);
+  transition: all 0.5s;
+}
+.track-card > * {
+  margin: 15px 0;
+  transition: all 0.5s;
+}
+
+.track-card:hover::before {
+  background: white;
+}
+.track-card:hover {
+  background: var(--main-color);
+}
+.track-card:hover > * {
+  color: white;
+}
+.track-card:hover .track-heading {
+  border-bottom: 2px solid white;
+}
+.track-card:hover > * > * {
+  color: white;
+}

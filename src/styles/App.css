@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap");
+:root {
+  --main-color: #1bbbac;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+a {
+  color: var(--main-color);
+}
+.page-heading {
+  height: 40vh;
+  max-height: 500px;
+  background: url("../assets/nit_image.jpg") center, rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.page-heading span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  padding: 0 20px;
+  color: #9dfff5;
+  text-decoration: underline;
+  font-family: "Bitter", serif;
+  font-weight: 700;
+}
+@media screen and (min-width: 500px) {
+  .page-heading span {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 800px) {
+  .page-heading span {
+    font-size: 4.5rem;
+  }
+  .page-heading {
+    height: 45vh;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .page-heading span {
+    font-size: 5.5rem;
+  }
+}
