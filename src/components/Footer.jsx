@@ -12,11 +12,17 @@ function Footer() {
           <img src={require("../assets/R (24).png")} alt="springer" />
         </div> */}
         <div className={classes.logo}>
-          <img src={require("../assets/iit-jammu.png")} alt="iit jammu" />
+          <img src={require("../assets/iitropar.png")} alt="iit jammu" />
+        </div>
+        <div className={classes.logo}>
+          <img src={require("../assets/iitDelhi.png")} alt="iit jammu" />
+        </div>
+        <div className={classes.logo}>
+          <img className="newlogo" src={require("../assets/awadh.png")} alt="iit jammu" />
         </div>
       </div>
       <p className={classes.footer_text}>
-        Copyright © 2022 IConIC. All Rights Reserved
+        Copyright © 2023. All Rights Reserved
       </p>
     </div>
   );

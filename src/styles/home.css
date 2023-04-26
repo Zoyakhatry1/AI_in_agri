@@ -74,6 +74,10 @@
   white-space: nowrap;
   animation: urmove 9s linear infinite;
 }
+.format{
+  width: 80vw;
+  min-width: 300px;
+}
 @-webkit-keyframes urmove {
   0% {
     transform: translate3d(5%, 0, 0);
@@ -106,9 +110,11 @@
 }
 
 .logos .logo img {
-  width: 100%;
-  height: auto;
+  width: 60%;
+  height:80%;
+  
 }
+
 /* #################################### */
 /* ########## SECTION TWO ############ */
 /* #################################### */
@@ -163,6 +169,14 @@
   font-weight: 800;
   color: var(--main-color);
   margin-bottom: 20px;
+}
+.abt-text{
+  font-size: 1rem;
+  font-family: "Bitter";
+  text-align: justify;
+  /* color: var(--main-color); */
+  margin: 2rem;
+  line-height: 1.5rem;
 }
 
 /* ####################################### */
@@ -275,7 +289,7 @@ blockquote .fa {
     width: 300px;
     height: 250px;
   }
-  .about-text {
+  .about-text,.abt-text {
     font-size: 14px;
   }
 }

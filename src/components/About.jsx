@@ -19,82 +19,76 @@ function About() {
         <span>About</span>
       </div>
       <div className={classes.about}>
+        <h3 className={classes.heading}>About the Workshop</h3>
+        <div className={classes.info}>
+          <div>
+            <p className={classes.text}>
+            Agriculture stands out as the most crucial economic pursuit of humankind, utilizing around 37.7% of the planet's land surface. Its significance emanates from its immense contribution to national revenue, besides being the fundamental source of subsistence. Agriculture is a pivotal player in the global marketplace, creating boundless job opportunities. Moreover, the betterment of agriculture has led to a substantial surge in the per capita income of rural communities. It is, therefore, a judicious and fitting decision to prioritize the agricultural sector. These reasons justify the need to enhance and promote agriculture further. 
+            The ever-increasing population has exerted enormous pressure on the available arable land. The Food and Agriculture Organization (FAO) predicts that the world's population will expand by over a third, reaching a staggering 10 billion by 2050. To cater to the dietary requirements of such a burgeoning population, food production must increase by approximately 70%. Conventional farming methods are unlikely to meet these escalating demands. Therefore, technological intervention has become an indispensable necessity. The optimal approach to introduce technological advancements in agriculture is through Artificial Intelligence (AI), Computer Vision, and Robotics.
+
+            </p>
+          </div>
+          {/* <div>
+            <img className={classes.image} src={require("../assets/abtwksp.jpg")} alt="nit-image" />
+          </div> */}
+        </div>
+      </div>
+      <div className={classes.about}>
+        <h3 className={classes.heading}>About AWADH</h3>
+        <div className={classes.info}>
+          <div>
+            <p className={classes.text}>
+            AWaDH (Agriculture and Water Technology Development Hub) is an interdisciplinary research and innovation hub established by IIT Ropar, with a focus on developing cutting-edge technologies for agriculture and rural development. Farmers and rural communities in India dedicate the center to creating innovative solutions that can help address the challenges faced. The center conducts research and development activities in various fields, including precision agriculture, agricultural robotics, soil and water management, and rural electrification.
+
+            </p>
+          </div>
+          {/* <div>
+            <img className={classes.image} src={pic} alt="nit-image" />
+          </div> */}
+        </div>
+      </div>
+      <div className={classes.about}>
         <h3 className={classes.heading}>About NIT SRINAGAR</h3>
         <div className={classes.info}>
           <div>
             <p className={classes.text}>
-              National Institute of Technology Srinagar is one of the premier
-              Educational Institutes in the Northern Region of the Country. It
-              was established in 1960 and has been one of the eighteen Regional
-              Engineering Colleges sponsored by the Govt. of India during the
-              2nd Plan. The Institute acquired the status of National Institute
-              of Technology with deemed to be University status during August,
-              2003 and attained full autonomy in its Academics. The Institute is
-              situated at the the banks of world-famous Dal Lake, with the
-              far-famed Hazratbal Shrine on other side of the campus. NIT
-              Srinagar is a residential Institute with accommodation facility in
-              Hostels and Staff-Quarters. Besides running the B.Tech Programme
-              the Institute also offers M.Tech programme in many streams.In
-              addition to that a large number of students are registered for
-              M.Phil and Ph.D Programmes.
+            The National Institute of Technology (NIT) Srinagar is a premier technical institute located in the beautiful valley of Kashmir. Established in 1960, NIT Srinagar offers undergraduate, postgraduate, and doctoral programs in various disciplines of engineering, technology, and sciences. The institute is known for its state-of-the-art infrastructure, experienced faculty, and excellent research facilities. NIT Srinagar has been consistently ranked among the top engineering colleges in India.
+
             </p>
           </div>
-          <div>
+          {/* <div>
             <img className={classes.image} src={pic} alt="nit-image" />
-          </div>
+          </div> */}
         </div>
       </div>
 
       <div className={classes.about}>
-        <h3 className={classes.heading}>About IIT JAMMU</h3>
+        <h3 className={classes.heading}>About IIT ROPAR</h3>
         <div className={classes.info}>
-          <div>
+          {/* <div>
             <img className={classes.image} src={iit} alt="nit-image" />
-          </div>
+          </div> */}
           <div>
             <p className={classes.text}>
-            The Indian Institute of Technology Jammu was inaugurated on 6th August 2016, and welcomed the first batch of students into the campus in Paloura, Jammu. In the initial phases, the establishment of IIT Jammu was done under the mentorship of IIT Delhi.
+            The Indian Institute of Technology (IIT) Ropar is a leading institute of national importance located in the northwestern state of Punjab. Established in 2008, IIT Ropar offers undergraduate, postgraduate, and doctoral programs in various engineering and technology fields. The institute is known for its excellent research facilities, top-notch faculty, and excellent industry collaborations. IIT Ropar has been consistently ranked among the top engineering colleges in India.
 
-            In 2018, IIT Jammu shifted the primary operations to the Main Campus in Jagti, Nagrota. The State Government, Jammu and Kashmir has provided land for the establishment of a permanent campus of the Indian Institute of Technology in Jammu, which consists of 400 acres. Currently the Phase 1 A of the main campus, spread across 25 acres, is operational. Phase 1 B and 1 C are undergoing construction.
-            
-            The campus in Paloura currently houses the PhD scholars and is being developed into a high-end research facility.
-            
-            The main campus of the Institute is located on National Highway 44 and is about 15 kilometers from the Airport
             </p>
           </div>
         </div>
       </div>
 
       <div className={classes.about}>
-        <h3 className={classes.heading}>About IConIC</h3>
+        <h3 className={classes.heading}>About IIT DELHI</h3>
         <div className={classes.info}>
           <div>
             <p className={classes.text}>
-              The Ist International Conference on
-              Intelligent Computing (IConIC 2022) is being conducted by the
-              Department of Computer Science and Engineering, National Institute
-              of Technology Srinagar, India (In Virtual Mode). IConIC- 2022
-              aims to bring together Academicians, Researchers, Industry
-              Experts, Enthusiasts, and Professionals to explore emerging trends
-              and innovations, as well as discuss research findings and future
-              directions in the area of next-generation innovations. This
-              technical conference intends to provide an opportunity for
-              academia and industry to share research and development
-              advancements in emerging fields of Intelligent Computing. It
-              offers a common platform to an interdisciplinary group of
-              researchers through a strategically designed network of premier
-              institutions across India. The conference will also have Expert Panel
-              discussions and Plenary Talks. The goal of the
-              Internaltional Conference on Intelligent Computing (IConIC) is to
-              promote and bring together the Indian and global researchers
-              across the areas of Artificial Intelligence, computer vision,
-              computational biology, natural language processing, and deep
-              learning.
+            The Indian Institute of Technology (IIT) Delhi is a premier technical institute located in the national capital region of India. Established in 1961, IIT Delhi offers undergraduate, postgraduate, and doctoral programs in various fields of engineering, technology, and sciences. The institute is known for its cutting-edge research facilities, experienced faculty, and strong industry-academia collaborations. IIT Delhi has been consistently ranked among the top engineering colleges in India and the world.
+
             </p>
           </div>
-          <div>
+          {/* <div>
             <img className={classes.image} src={abic} alt="nit-image" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

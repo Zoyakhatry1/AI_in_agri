@@ -56,14 +56,14 @@ function Home({ scrollToTarget, trackArray }) {
           swipeable={false}
         >
           <div className="slide-item">
-            <img src={require("../assets/nit_image.jpg")} alt="" />
+            <img src={require("../assets/slide1.jpg")} alt="" />
           </div>
           <div className="slide-item">
-            <img src={require("../assets/scene.jpg")} alt="" />
+            <img src={require("../assets/slide2.jpg")} alt="" />
           </div>
           <div className="slide-item">
             <img
-              src={require("../assets/jason-blackeye-10ui0BryWK8-unsplash.jpg")}
+              src={require("../assets/slide3.jpg")}
               alt=""
             />
           </div>
@@ -71,9 +71,9 @@ function Home({ scrollToTarget, trackArray }) {
         <div className="slide-content">
           <div className="slide-text-content">
             <div className="sub-text">
-              The 1<sup>st</sup> International Conference on{" "}
+              3 days workshop on {" "}
             </div>
-            <h1>Intelligent Computing</h1>
+            <h1>Potential of AI in Agriculture</h1>
             <div className="sub-text">
               <h2 className="date-new">28 <sup>th</sup> - 29 <sup>th</sup> September, 2022</h2>
               <table>
@@ -81,16 +81,18 @@ function Home({ scrollToTarget, trackArray }) {
                   <tr style={{ whiteSpace: "nowrap" }}>
                     <td>ORGANISED BY:-</td>
                     <td>COLLABORATION WITH:-</td>
+                    <td>SPONSERED BY:-</td>
                   </tr>
                   <tr style={{ whiteSpace: "nowrap" }}>
                     <td>DEPARTMENT OF CSE - NIT SRINAGAR</td>
-                    <td>IIT JAMMU</td>
+                    <td>IIT ROPAR AND IIT DELHI</td>
+                    <td>iHub - AWADH</td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
-          <div className="moving-text">
+          {/* <div className="moving-text">
             <p class="example-right">
               Last date of paper submission - 30<sup>th</sup> June, 2022. Paper
               submission link:{" "}
@@ -103,7 +105,7 @@ function Home({ scrollToTarget, trackArray }) {
                 https://easychair.org/conferences/?conf=iconic20221
               </a>
             </p>
-          </div>
+          </div> */}
           <div className="logos">
             <div className="logo">
               <img
@@ -115,23 +117,23 @@ function Home({ scrollToTarget, trackArray }) {
               <img src={require("../assets/R (24).png")} alt="springer" />
             </div> */}
             <div className="logo">
-              <img src={require("../assets/iit-jammu.png")} alt="iit jammu" />
+              <img src={require("../assets/iitropar.png")} alt="iit jammu" />
+            </div>
+            <div className="logo">
+              <img src={require("../assets/iitDelhi.png")} alt="iit jammu" />
+            </div>
+            <div className="logo">
+              <img src={require("../assets/awadh.jpg")} alt="iit jammu" />
             </div>
           </div>
         </div>
       </section>
       <section id="section-two">
         <div className="about-iconic">
-          <img src={require("../assets/nit_image.jpg")} alt="" />
+          <img src={require("../assets/abt.jpg")} alt="" />
           <div className="about-text">
-            <div className="text-heading">About IConIC</div>
-            The Ist International Conference on Internaltional Conference on
-            Intelligent Computing (IConIC) is being conducted by the Department
-            of Computer Science and Engineering, National Institute of
-            Technology, Srinagar, India (In Virtual Mode). IConIC- 2022 aims to
-            bring together Academicians, Researchers, Industry Experts,
-            Enthusiasts, and Professionals to explore emerging trends and
-            innovations <Link to="/about">...read more</Link>
+            <div className="text-heading">About Us</div>
+            Agriculture stands out as the most crucial economic pursuit of humankind, utilizing around 37.7% of the planet's land surface. Its significance emanates from its immense contribution to national revenue, besides being the fundamental source of subsistence. Agriculture is a pivotal player in the global marketplace, creating boundless job opportunities. Moreover, the betterment of agriculture has led to a substantial surge in the per capita income of rural communities. It is, therefore, a judicious and fitting decision to prioritize the agricultural sector. These reasons justify the need to enhance and promote agriculture further. <Link to="/about">...read more</Link>
           </div>
         </div>
       </section>
@@ -176,7 +178,12 @@ function Home({ scrollToTarget, trackArray }) {
         </div>
       </section>
       <section id="tracks-container" ref={tracks}>
-        <h3 className="date-table-heading contacts">Tracks</h3>
+        <h3 className="date-table-heading contacts">Format of the Workshop</h3>
+        {/* <div className="format">
+        <p className="abt-text">The 3 day Workshop on Potential of AI in Agriculture includes workshops, special sessions, Technology Award* (Best Three) and Tutorials along with globally renowned Keynote Speakers, technology Presentations and panel discussion. <br />
+* Best three posters will be finalized by the Panel Board and steering committee based on the score received from eminent reviewers by adopting the rigorous review policy.
+</p>
+        </div> */}
         <div id="tracks">
           {trackArray.map((item, index) => (
             <TrackCard2 track={item} key={index} />

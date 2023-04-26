@@ -33,9 +33,9 @@ function NavBar() {
   return (
     <nav className="navbar" ref={navBar}>
       <div className="nav-container">
-        <Link to="/" className="nav-logo">
+        {/* <Link to="/" className="nav-logo">
           <div className="nav-logo-container"></div>
-        </Link>
+        </Link> */}
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li
